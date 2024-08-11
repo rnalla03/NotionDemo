@@ -11,8 +11,8 @@ app.use(cors());
 const PORT = 4000;
 const HOST = "localhost";
 
-const notion = new Client({ auth: "secret_DS13ZA60bjgni5gWuEUowH2EL6txoTovVTilzFs51Hb" });
-const databaseId = "464dec43f75147998f827346283751fe";
+const notion = new Client({ auth: // client token would go here});
+const databaseId = // database id would go here
 
 // POST request
 // POST name, phoneNumber, extraInfo
